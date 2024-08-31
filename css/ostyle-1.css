@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+h3 {
+    margin-bottom: 24px;
+}
+#footer {
+    background-color: #555;
+}
+.fmain { 
+    display:flex;
+    border-bottom: 2px solid rgba(29, 29, 49, 0.2);
+}
+.content {
+    display:inline-block;
+    padding:24px 16px;
+    width:40%;  
+}
+.content h3 {
+    color:#eee;
+    text-transform: uppercase;
+}
+.content p {
+    color:#ccc;
+    line-height: 24px;
+}
+.links-group {
+    width:60%;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.links{
+    padding-top:24px;
+    width:30%;
+    display: inline-block; 
+}
+.links h3 {
+    color:#eee;
+    text-transform: uppercase;
+}
+.links a {
+    color:#ccc;
+    text-decoration: none;
+    display:block;
+    width: fit-content;
+    line-height: 24px;
+    margin:0 auto;
+}
+.links a:hover {
+    color:#eee;
+}
+.register {
+    border-bottom: 2px solid rgba(29, 29, 49, 0.2);
+    padding:32px 0;
+    text-align: center;
+}
+.register p {
+    color:#eee;
+    display: inline-block;
+    font-size: 16px;
+}
+.register a {
+    background-color: red;
+    color:#eee;
+    display:inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: smaller;
+    width:100px;
+    padding:12px;
+    border-radius: 16px;
+    margin-left: 16px;;
+    box-shadow:  1px 1px 1px 1px #444;
+    transition:0.3s;
+}
+.register a:hover {
+    background-color: orange;
+}
+.social {
+    padding:32px 0;
+    text-align: center;
+}
+.social a {
+    border: 3px solid #ccc;
+    display:inline-block;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    color:#fff;
+    line-height: 44px;
+    margin: 0 10px;
+    transition: 0.4s;
+    box-shadow:  1px 1px 1px 1px #444;
+}
+.social .facebook:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+.social .twitter:hover {
+    background-color: #08a0e9;
+    border-color: #08a0e9;
+}
+.social .google-plus:hover {
+    background-color: #db4a39;
+    border-color: #db4a39;
+}
+.social .linkedin:hover {
+    background-color: #0077b5;
+    border-color: #0077b5;
+}
+.copy {
+    background-color: #2a2c30;
+    font-size: small;
+    height:48px;
+    line-height: 48px;
+    text-align: center;
+    color:#ddd;
+}
+.copy span {
+    color:#aaa;
+}
+
+@media (max-width:720px) {
+    .fmain {
+        display:block;
+    }
+    .content {
+        width:100%;
+    }
+    .links-group {
+        width:100%;
+    }
+}
